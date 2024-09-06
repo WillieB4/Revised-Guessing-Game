@@ -1,8 +1,7 @@
 package edu.guilford;
 
-import java.util.Scanner; // in future projects, you need to enter this
-
 import java.util.Random;
+import java.util.Scanner; // in future projects, you need to enter this
 
 public class Main {
 
@@ -44,7 +43,6 @@ public class Main {
         Scanner myScan = new Scanner(System.in);
         
         int guess = myScan.nextInt();
-        value=10;
 
         while (guess != value){
             System.out.print("Guess an integer from 1 to 5: ");
